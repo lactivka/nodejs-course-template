@@ -1,4 +1,4 @@
-const { ENCRYPTION, ALPHABET } = require('../constants');
+const { ALPHABET } = require('../constants');
 
 /**
  * Get next index for char
@@ -22,7 +22,7 @@ const getNextIndex = (index, shift) => {
  *
  * @return {string}
  */
-module.exports = (text = ENCRYPTION, shift) =>
+module.exports = (text, shift) =>
   text
     .split('')
     .map(char => {
