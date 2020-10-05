@@ -1,3 +1,4 @@
+/* eslint-disable no-process-exit */
 const fs = require('fs');
 const path = require('path');
 const {
@@ -19,7 +20,6 @@ const { shift, action, input, output } = require('../helpers/arguments');
 const errorHandler = (error, successMsg = '') => {
   if (error) {
     process.stderr.write(`${error.message}\n`);
-    // eslint-disable-next-line no-process-exit
     process.exit(1);
   } else if (successMsg) {
     console.log(successMsg);

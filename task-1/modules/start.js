@@ -1,5 +1,4 @@
 const fs = require('fs');
-// eslint-disable-next-line node/no-unsupported-features/node-builtins
 const { pipeline } = require('stream');
 const {
   errorHandler,
