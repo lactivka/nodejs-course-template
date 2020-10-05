@@ -1,0 +1,21 @@
+{
+  "name": "task-1",
+  "version": "1.0.0",
+  "description": "## Run app",
+  "main": "index.js",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "saesar-cipher",
+    "encode",
+    "decode",
+    "cli"
+  ],
+  "author": "Pavel Sturov",
+  "license": "ISC"
+}
